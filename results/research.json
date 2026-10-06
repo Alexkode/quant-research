@@ -1,0 +1,247 @@
+{
+  "data_period": "2022-2025",
+  "validation_period": 2024,
+  "test_period": 2025,
+  "selected": {
+    "c": 1,
+    "threshold": 0.5,
+    "mean_net_return": 0.0005024035372646087
+  },
+  "validation_candidates": [
+    {
+      "c": 0.1,
+      "threshold": 0.5,
+      "mean_net_return": 0.0003185964807533041
+    },
+    {
+      "c": 0.1,
+      "threshold": 0.55,
+      "mean_net_return": -0.0006436228744772742
+    },
+    {
+      "c": 0.1,
+      "threshold": 0.6,
+      "mean_net_return": -0.0004116987737349436
+    },
+    {
+      "c": 1,
+      "threshold": 0.5,
+      "mean_net_return": 0.0005024035372646087
+    },
+    {
+      "c": 1,
+      "threshold": 0.55,
+      "mean_net_return": -0.0006778012115092898
+    },
+    {
+      "c": 1,
+      "threshold": 0.6,
+      "mean_net_return": -0.0005983002681530013
+    },
+    {
+      "c": 10,
+      "threshold": 0.5,
+      "mean_net_return": 0.0004957806132381391
+    },
+    {
+      "c": 10,
+      "threshold": 0.55,
+      "mean_net_return": -0.0006852551767437309
+    },
+    {
+      "c": 10,
+      "threshold": 0.6,
+      "mean_net_return": -0.0005647189141019769
+    }
+  ],
+  "test_auc": 0.4818014636892475,
+  "test_trade_fraction": 0.563013698630137,
+  "folds": [
+    {
+      "test_start": "2025-01-01 00:00:00+00:00",
+      "train_label_end": "2024-12-30 00:00:00+00:00",
+      "first_test_feature_time": "2024-12-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-02-01 00:00:00+00:00",
+      "train_label_end": "2025-01-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-01-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 56
+    },
+    {
+      "test_start": "2025-03-01 00:00:00+00:00",
+      "train_label_end": "2025-02-27 00:00:00+00:00",
+      "first_test_feature_time": "2025-02-28 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-04-01 00:00:00+00:00",
+      "train_label_end": "2025-03-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-03-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 60
+    },
+    {
+      "test_start": "2025-05-01 00:00:00+00:00",
+      "train_label_end": "2025-04-29 00:00:00+00:00",
+      "first_test_feature_time": "2025-04-30 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-06-01 00:00:00+00:00",
+      "train_label_end": "2025-05-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-05-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 60
+    },
+    {
+      "test_start": "2025-07-01 00:00:00+00:00",
+      "train_label_end": "2025-06-29 00:00:00+00:00",
+      "first_test_feature_time": "2025-06-30 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-08-01 00:00:00+00:00",
+      "train_label_end": "2025-07-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-07-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-09-01 00:00:00+00:00",
+      "train_label_end": "2025-08-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-08-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 60
+    },
+    {
+      "test_start": "2025-10-01 00:00:00+00:00",
+      "train_label_end": "2025-09-29 00:00:00+00:00",
+      "first_test_feature_time": "2025-09-30 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    },
+    {
+      "test_start": "2025-11-01 00:00:00+00:00",
+      "train_label_end": "2025-10-30 00:00:00+00:00",
+      "first_test_feature_time": "2025-10-31 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 60
+    },
+    {
+      "test_start": "2025-12-01 00:00:00+00:00",
+      "train_label_end": "2025-11-29 00:00:00+00:00",
+      "first_test_feature_time": "2025-11-30 00:00:00+00:00",
+      "train_rows": 728,
+      "test_rows": 62
+    }
+  ],
+  "results": {
+    "fee_0_bps_each_side": {
+      "days": 365,
+      "total_return": -0.33898634118431736,
+      "cagr": -0.33898634118431736,
+      "sharpe_365": -1.049238081530619,
+      "max_drawdown": -0.3781268976605413,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.0028363496483012575,
+        0.0007906129250944783
+      ]
+    },
+    "fee_5_bps_each_side": {
+      "days": 365,
+      "total_return": -0.46205916374441414,
+      "cagr": -0.46205916374441414,
+      "sharpe_365": -1.6525287983063555,
+      "max_drawdown": -0.49089846020891503,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.0034410534265609566,
+        0.00023879677047305135
+      ]
+    },
+    "fee_10_bps_each_side": {
+      "days": 365,
+      "total_return": -0.5622998342210552,
+      "cagr": -0.5622998342210552,
+      "sharpe_365": -2.2527911055478573,
+      "max_drawdown": -0.5841267305496285,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.0040026054807622835,
+        -0.00034617958343094224
+      ]
+    },
+    "fee_20_bps_each_side": {
+      "days": 365,
+      "total_return": -0.7103891489480426,
+      "cagr": -0.7103891489480426,
+      "sharpe_365": -3.4399465120393016,
+      "max_drawdown": -0.7226469105205943,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.005145930632223503,
+        -0.0014596591961689586
+      ]
+    },
+    "always_long_intraday": {
+      "days": 365,
+      "total_return": -0.5483425390354608,
+      "cagr": -0.5483425390354608,
+      "sharpe_365": -1.1452041822476158,
+      "max_drawdown": -0.5887008101441112,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.004585131643945829,
+        0.0010947638771866804
+      ]
+    },
+    "momentum": {
+      "days": 365,
+      "total_return": -0.09754020988402556,
+      "cagr": -0.09754020988402556,
+      "sharpe_365": -0.18992375886209636,
+      "max_drawdown": -0.24342652107313634,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.0017697757271082925,
+        0.0017417258418466284
+      ]
+    },
+    "cash": {
+      "days": 365,
+      "total_return": 0.0,
+      "cagr": 0.0,
+      "sharpe_365": 0,
+      "max_drawdown": 0.0,
+      "mean_daily_return_95_block_bootstrap": [
+        0.0,
+        0.0
+      ]
+    },
+    "BTCUSDT": {
+      "days": 365,
+      "total_return": -0.5599624161024206,
+      "cagr": -0.5599624161024206,
+      "sharpe_365": -2.656983344151323,
+      "max_drawdown": -0.5856009250230481,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.00377503782952794,
+        -0.0006057147994331254
+      ]
+    },
+    "ETHUSDT": {
+      "days": 365,
+      "total_return": -0.5777745490840613,
+      "cagr": -0.5777745490840613,
+      "sharpe_365": -1.6607929382512343,
+      "max_drawdown": -0.601182597522403,
+      "mean_daily_return_95_block_bootstrap": [
+        -0.0045009569166702245,
+        0.0003052338744556492
+      ]
+    }
+  },
+  "execution": "Long/flat only, decision at previous close, entry next open, exit same close. Equal notional BTC/ETH sleeves; daily rebalance. Cost charged on both entry and exit. No leverage, funding or interest. Perfect fills and price availability are simplifying assumptions."
+}
