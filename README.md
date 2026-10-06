@@ -1,5 +1,7 @@
 # Leakage-aware quantitative research
 
+[![Verify project](https://github.com/Alexkode/quant-research/actions/workflows/verify.yml/badge.svg)](https://github.com/Alexkode/quant-research/actions/workflows/verify.yml)
+
 Reproducible daily BTC/ETH research on official public Binance spot archives, 2022–2025. Downloaded ZIPs are checked against publisher SHA-256 checksums. Millisecond and microsecond timestamps are handled explicitly.
 
 ## Run
@@ -23,3 +25,16 @@ Report total return, annualized Sharpe, drawdown, AUC, trade fraction, 7-day blo
 An unfavorable test result is retained. The experiment is a portfolio demonstration of chronology and validation, not investment advice or evidence of a durable trading edge. It assumes perfect open/close fills and does not model exchange outages or capacity.
 
 Code developed with AI assistance. Data source and usage terms: [Binance public data](https://github.com/binance/binance-public-data).
+
+## Installation and verification
+
+Clone this repository and run commands from its root. Each repository has its own dependencies and tests.
+
+```sh
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+bash scripts/verify.sh
+```
+
+GitHub Actions checks the code contracts and the consistency of published experimental records. It does not rerun training or cluster benchmarks. See [experiment provenance](ENVIRONMENT.md) and [measured report](results/REPORT.md).
